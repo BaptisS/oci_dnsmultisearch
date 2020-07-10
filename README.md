@@ -25,7 +25,7 @@ PRESERVE_HOSTINFO=3
 
 -	reboot
 
-'''
+```
 
 cp /etc/dhcp/exit-hooks.d/dhclient-exit-hook-set-hostname.sh /etc/dhcp/exit-hooks.d/dhclient-exit-hook-set-hostname.sh.bak
 
@@ -37,4 +37,4 @@ sed 's/^PRESERVE_HOSTINFO=0/PRESERVE_HOSTINFO=3/g' /etc/oci-hostname.conf
 
 echo bstest.domain1.com bstest.domain2.com > oci-hostname.customdomain
 
-'''
+```
